@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.14.0</Version>
+    <SymbolConfigObject version="4.5.1.0" runtimeid="3.5.20.10" libversion="4.5.0.0" compiler="3.5.20.10" lmm="3.5.20.10" profile="CODESYS V3.5 SP20 Patch 1+" settings="SupportOPCUA, LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="AutomationProgram" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_REAL" size="4" swapsize="4" typeclass="Real" iecname="REAL" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="DB_input">
+        <Node name="in_cilindro_inferior_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="in_cilindro_inferior_2" type="T_BOOL" access="ReadWrite" />
+        <Node name="in_cilindro_inferior_3" type="T_BOOL" access="ReadWrite" />
+        <Node name="in_cilindro_superior_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="in_cilindro_superior_2" type="T_BOOL" access="ReadWrite" />
+        <Node name="in_cilindro_superior_3" type="T_BOOL" access="ReadWrite" />
+        <Node name="in_eje_x_inferior" type="T_BOOL" access="ReadWrite" />
+        <Node name="in_eje_x_superior" type="T_BOOL" access="ReadWrite" />
+        <Node name="in_eje_y" type="T_REAL" access="ReadWrite" />
+        <Node name="in_eje_y_inferior" type="T_BOOL" access="ReadWrite" />
+        <Node name="in_eje_y_superior" type="T_BOOL" access="ReadWrite" />
+        <Node name="in_eje_z_inferior" type="T_BOOL" access="ReadWrite" />
+        <Node name="in_eje_z_superior" type="T_BOOL" access="ReadWrite" />
+        <Node name="in_hilo_sensor_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="in_hilo_sensor_2" type="T_BOOL" access="ReadWrite" />
+        <Node name="in_pinza_abierta" type="T_BOOL" access="ReadWrite" />
+        <Node name="in_pinza_cerrada" type="T_BOOL" access="ReadWrite" />
+      </Node>
+      <Node name="DB_output">
+        <Node name="out_cilindro_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="out_cilindro_2" type="T_BOOL" access="ReadWrite" />
+        <Node name="out_cilindro_3" type="T_BOOL" access="ReadWrite" />
+        <Node name="out_dedo_1" type="T_REAL" access="ReadWrite" />
+        <Node name="out_dedo_2" type="T_REAL" access="ReadWrite" />
+        <Node name="out_eje_x" type="T_BOOL" access="ReadWrite" />
+        <Node name="out_eje_y" type="T_REAL" access="ReadWrite" />
+        <Node name="out_eje_z" type="T_BOOL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
